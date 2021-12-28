@@ -1,0 +1,122 @@
+#top-page{
+    background-image: url(https://images.pexels.com/photos/7019611/pexels-photo-7019611.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+
+header {
+    height: 50vh;
+    background: center 75% / cover no-repeat;
+    margin: 0;
+    padding: 6rem ;
+}
+
+.neonText {
+    color: #fff;
+    text-shadow:
+      0 0 7px black,
+      0 0 10px black,
+      0 0 21px black,
+      0 0 42px #1b2329,
+      0 0 82px #1b2329,
+      0 0 92px #1b2329,
+      0 0 102px #1b2329,
+      0 0 151px #1b2329;
+  }
+
+body {
+	font-family: 'Merienda One', 'Brush Script MT', cursive;
+	margin: 0;
+	background-color: whitesmoke;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+    background-color: #fff;
+}
+    
+nav ul { 
+    list-style: none;
+    background-color: #4a4a4f;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: .5%;
+    padding: 0 1rem;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #fff;
+    border-radius: 8px;
+    padding: .4rem 0;
+}
+
+.heading {
+    font-family: 'Merienda One', 'Brush Script MT', cursive;
+    font-size: 3rem;
+    margin: 0;
+}
+
+h1 {
+    padding: 1rem;
+    color: #fff;
+    text-shadow:
+    0 0 4px black,
+    0 0 7px black,
+    0 0 18px black,
+    0 0 39px #1b2329,
+    0 0 79px #1b2329,
+    0 0 89px #1b2329,
+    0 0 99px #1b2329,
+    0 0 149px #1b2329;
+  }
+
+.page{
+    background-color: white;
+    width: 50%;
+    padding: 10px;
+    margin: 60px auto;
+    border-radius: 4%;
+    
+}
+ 
+.spare {
+text-transform: inherit;
+}
+
+.oil{   
+    text-align: center;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: left;
+}
+
+.float-left {
+    float: left;
+}
+
+ol {
+    list-style: none;
+}
+.large-text{
+    text-transform: uppercase;
+}
+
+
