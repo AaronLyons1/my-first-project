@@ -60,3 +60,23 @@ nav a:hover {
     border-radius: 8px;
     padding: .4rem 0;
 }
+
+.heading {
+    font-family: 'Merienda One', 'Brush Script MT', cursive;
+    font-size: 3rem;
+    margin: 0;
+}
+
+h1 {
+    padding: 1rem;
+    color: #fff;
+    text-shadow:
+    0 0 4px black,
+    0 0 7px black,
+    0 0 18px black,
+    0 0 39px #1b2329,
+    0 0 79px #1b2329,
+    0 0 89px #1b2329,
+    0 0 99px #1b2329,
+    0 0 149px #1b2329;
+  }
