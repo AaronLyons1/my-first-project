@@ -68,3 +68,20 @@ header h1{
     font-size: 4rem;
     text-align: center;
 }
+
+.container{
+    text-align: justify;
+    width: 700px;
+    padding: 25px;
+    border-radius: 0;
+    margin: auto;
+    margin-top: 15rem;
+    margin-left: 50%;
+    background-color: white;;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
