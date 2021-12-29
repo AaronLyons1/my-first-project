@@ -88,3 +88,30 @@ h1 {
     margin: 60px auto;
     border-radius: 4%;
 }
+.spare {
+    text-transform: inherit;
+    }
+    
+.oil{   
+    text-align: center;
+    
+}
+    
+.text-center {
+    text-align: center;
+}
+    
+.text-right {
+    text-align: left;
+}
+    
+.float-left {
+    float: left;
+}
+    
+ol {
+    list-style: none;
+}
+.large-text{
+    text-transform: uppercase;
+}
