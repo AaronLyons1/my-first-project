@@ -23,15 +23,16 @@ header {
   }
 
 body {
-    font-family: 'Merienda One', 'Brush Script MT', cursive;
-    margin: 0;
-    background-color: whitesmoke;
+	font-family: 'Merienda One', 'Brush Script MT', cursive;
+	margin: 0;
+	background-color: whitesmoke;
     font-size: .875rem;
     font-weight: 400;
     line-height: 1.5;
     color: #292b2c;
     background-color: #fff;
 }
+
 nav ul { 
     list-style: none;
     background-color: #4a4a4f;
@@ -81,37 +82,40 @@ h1 {
     0 0 149px #1b2329;
   }
 
-  .page{
+.page{
     background-color: white;
     width: 50%;
     padding: 10px;
     margin: 60px auto;
     border-radius: 4%;
+
 }
+
 .spare {
-    text-transform: inherit;
-    }
-    
+text-transform: inherit;
+}
+
 .oil{   
     text-align: center;
-    
+
 }
-    
+
 .text-center {
     text-align: center;
 }
-    
+
 .text-right {
     text-align: left;
 }
-    
+
 .float-left {
     float: left;
 }
-    
+
 ol {
     list-style: none;
 }
 .large-text{
     text-transform: uppercase;
 }
+
