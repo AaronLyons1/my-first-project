@@ -28,7 +28,7 @@ body {
     padding: 0;
 	background-color: whitesmoke;
 }
-    
+
 nav ul { 
     list-style: none;
     background-color: #4a4a4f;
@@ -226,4 +226,4 @@ div span {
 
 section p {
     text-transform: uppercase;
-}
+} 
