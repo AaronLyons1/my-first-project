@@ -132,3 +132,8 @@ header h1{
     border-radius: 24px;
     transition: 0.25s;
 }
+
+.container textarea:focus{
+	width: 350px;
+	border-color: red;
+}
