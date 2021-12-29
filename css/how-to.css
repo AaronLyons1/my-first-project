@@ -80,3 +80,11 @@ h1 {
     0 0 99px #1b2329,
     0 0 149px #1b2329;
   }
+
+  .page{
+    background-color: white;
+    width: 50%;
+    padding: 10px;
+    margin: 60px auto;
+    border-radius: 4%;
+}
