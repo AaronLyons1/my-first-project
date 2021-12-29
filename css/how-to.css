@@ -32,3 +32,31 @@ body {
     color: #292b2c;
     background-color: #fff;
 }
+nav ul { 
+    list-style: none;
+    background-color: #4a4a4f;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: .5%;
+    padding: 0 1rem;
+}
+
+nav a:hover {
+    background-color: black;
+    color: #fff;
+    border-radius: 8px;
+    padding: .4rem 0;
+}
