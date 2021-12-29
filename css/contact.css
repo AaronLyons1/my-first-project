@@ -156,3 +156,7 @@ header h1{
 .container input[type="submit"]:hover{
     background-color: green;
 }
+
+.container input:focus::placeholder {
+    color: transparent; /*Placeholder invisible when focused*/
+  }
