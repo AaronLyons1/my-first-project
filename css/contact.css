@@ -158,5 +158,9 @@ header h1{
 }
 
 .container input:focus::placeholder {
-    color: transparent; /*Placeholder invisible when focused*/
+    color: transparent;
   }
+
+  .container textarea:focus::placeholder {
+    color: transparent; 
+  } 
