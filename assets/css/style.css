@@ -1,5 +1,5 @@
 #top-page{
-    background-image: url(https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url('../images/girl\ working\ on\ engine.jpeg');
 }
 
 header {
@@ -118,7 +118,7 @@ h2 {
     width: auto;
     margin: 0;
     padding: 6rem ;
-    background: url('https://images.pexels.com/photos/474/black-and-white-car-vehicle-vintage.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260') center center / cover no-repeat fixed;
+    background: url('../images/man-working-on-car.jpg') center center / cover no-repeat fixed;
 }
 
 .neon-about{
