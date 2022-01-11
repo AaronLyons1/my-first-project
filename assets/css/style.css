@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
 #top-page{
     background-image: url('../images/girl\ working\ on\ engine.jpeg');
 }
@@ -7,6 +13,7 @@ header {
     background: center 75% / cover no-repeat;
     margin: 0;
     padding: 6rem ;
+    width: 100%;
 }
 
 .neon-text {
@@ -91,27 +98,6 @@ h2 {
     font-weight: bold;
 }
 
-#information{
-    color: white;
-    width: 33%;
-    width: 25%;
-    margin: 0;
-    padding: 0 1rem 0 1rem;
-    display: inline-block;
-    background-color: #2e3644;
-    position: relative;
-}
-
-.history{
-    width: 33%;
-    width: 25%;
-    margin: 0;
-    padding: 0 1rem 0 1rem;
-    display: inline-block;
-    background-color: #009c87;
-    position: relative;
-}
-
 #history{
     height: 30vh;
     background: center 100% / cover no-repeat;
@@ -119,6 +105,27 @@ h2 {
     margin: 0;
     padding: 6rem ;
     background: url('../images/man-working-on-car.jpg') center center / cover no-repeat fixed;
+}
+
+#information{
+    color: white;
+    left: 70px;
+    top: -15px;
+    width: 33%;
+    float: left;
+    margin: 1rem 0;
+    background-color: #2e3644;
+    position: relative;
+}
+
+.history{
+    float: left;
+    right: 70px;
+    top: -15px;
+    width: 33%;
+    margin: 1rem 0;
+    background-color: #009c87;
+    position: relative;
 }
 
 .neon-about{
@@ -227,3 +234,19 @@ div span {
 section p {
     text-transform: uppercase;
 } 
+
+@media screen and (max-width: 1200px){
+    #top-page{
+        width: 65%;
+        height: 1000px;
+        margin: 0 auto;
+    }
+    .begining-block{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 0 auto;
+    }
+    .history{
+        clear: both;
+    }
+}
