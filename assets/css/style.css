@@ -43,6 +43,43 @@
     0 0 151px #3e3e42;
 }
 
+section{
+    display: block;
+}
+
+.map-heading{
+    padding: 2.5rem 0 1rem ;
+}
+
+#map-wrapper {
+    height: 390px;
+    margin-bottom: 0px;
+}
+
+#map {
+    height: 90%;
+    width: 100%;
+    border: none;
+}
+
+footer {
+	background-color: #A9A9A9;
+    height: 70px;
+	padding: 1rem;
+    margin-top: 50px;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+	z-index: 3;
+}
+
+footer > a {
+	color: beige;
+	text-decoration: none;
+	padding: 0 15px;
+	font-size: 0.8rem;
+}
+
 
 ol{
     list-style: none;
