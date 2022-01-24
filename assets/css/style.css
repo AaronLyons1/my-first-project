@@ -39,6 +39,11 @@
     0 0 151px #3e3e42;
 }
 
+iframe{
+    height: 450px;
+    width: 100%;
+}
+
 section{
     display: block;
 }
