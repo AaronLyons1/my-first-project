@@ -92,9 +92,8 @@ ol{
 @media screen and (max-width: 950px){
     .diagnose{
         text-align: left;
+        overflow-x: hidden;
+        overflow-y:auto;
     }
-    .ol{
-        text-align: left;
-        text-decoration: none;
-    }
+    
 }
