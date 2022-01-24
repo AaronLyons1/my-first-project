@@ -7,7 +7,9 @@
     text-align: center;
     max-width: 600px;
     max-height: 350px;
+    overflow: hidden;
 }
+
 .mycard {
     position: relative;
     display: -ms-flexbox;
@@ -22,7 +24,6 @@
     text-align:center;
     background-color: #fff;
     background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
     border-radius: 0.25rem;
 }
 .neontext {
@@ -75,7 +76,20 @@ footer > a {
 	font-size: 0.8rem;
 }
 
+.card{
+    border: none;
+}
 
 ol{
     list-style: none;
+}
+
+@media screen and (max-width: 950px){
+    .diagnose{
+        text-align: left;
+    }
+    .ol{
+        text-align: left;
+        text-decoration: none;
+    }
 }
