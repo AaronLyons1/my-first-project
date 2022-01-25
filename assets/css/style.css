@@ -44,6 +44,10 @@ iframe{
     width: 100%;
 }
 
+.embed-responsive-item{
+    background: url('../videos/Man-checks-car-engine-oil.mp4');
+}
+
 section{
     display: block;
 }
@@ -96,4 +100,15 @@ ol{
         overflow-y:auto;
     }
     
+}
+
+@media screen and (max-width: 320px){
+    #map{
+        width: 320px;
+        height: 80%;
+    }
+
+    footer > p {
+        font-size: small;
+    }
 }
