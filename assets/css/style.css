@@ -44,8 +44,9 @@ iframe{
     width: 100%;
 }
 
-.embed-responsive-item{
-    background: url('../videos/Man-checks-car-engine-oil.mp4');
+video{
+    width: 100%;
+    height: 340px;
 }
 
 section{
