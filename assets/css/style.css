@@ -3,11 +3,35 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.how-to-page{
+    background: url('../images/man-working-on-car.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+    padding: 6rem 2rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
+}
+
 .diagnose{
     text-align: center;
     max-width: 600px;
     max-height: 350px;
     overflow: hidden;
+}
+
+.my-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    padding: 0 0 4rem 0;
 }
 
 .mycard {
