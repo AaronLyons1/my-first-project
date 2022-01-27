@@ -1,3 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    background-color: #f0f2f3;
+}
+
 .top-page{
     background: url('../images/girl-working-on-engine.jpeg'); 
     background-repeat: no-repeat;
@@ -6,6 +16,12 @@
 
 .how-to-page{
     background: url('../images/man-working-on-car.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-top-page{
+    background-image: url('../images/open-bonnet.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -34,6 +50,10 @@
     padding: 0 0 4rem 0;
 }
 
+.card-body{
+    background-color: #f0f2f3;
+}
+
 .mycard {
     position: relative;
     display: -ms-flexbox;
@@ -46,7 +66,7 @@
     width: auto;
     height: auto;
     text-align:center;
-    background-color: #fff;
+    background-color: #f0f2f3;
     background-clip: border-box;
     border-radius: 0.25rem;
 }
@@ -62,6 +82,8 @@
     0 0 102px #3e3e42,
     0 0 151px #3e3e42;
 }
+
+/*how-to.css*/
 
 .center {
     margin: auto;
@@ -129,6 +151,106 @@ footer > a {
 ol{
     list-style: none;
 }
+
+/* for container on contact.htlm*/
+
+.contact-container{
+    text-align: justify;
+    width: 700px;
+    border-radius: 0;
+    margin: auto;
+    margin-top: 15rem;
+    margin-left: 50%;
+    background-color: #f0f2f3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+    margin-left: 100%;
+    width: 2100px;
+}
+
+    to {
+    margin-left: 50%;
+    width: 700px;
+    }
+}
+
+.contact-container input[type="text"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.contact-container input[type="text"]:focus{
+	width: 250px;
+	border-color: red;
+}
+
+.contact-container textarea{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 300px;
+    height: 100px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.contact-container textarea:focus{
+	width: 350px;
+	border-color: red;
+}
+
+.contact-container input[type="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid green;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.contact-container input[type="submit"]:hover{
+    background-color: green;
+}
+
+.contact-container input:focus::placeholder {
+    color: transparent;
+}
+
+ .contact-container textarea:focus::placeholder {
+    color: transparent; 
+}
+
+
+  /*media for all .html's*/
 
 @media screen and (max-width: 950px){
     .diagnose{
