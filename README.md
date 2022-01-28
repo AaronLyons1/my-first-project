@@ -23,4 +23,14 @@ this layout for the top was actually designed by booststrap. Now i know bootstra
 opun because people will just use booststraps intagrated html, css and the most difficult part the 
 media queeres but as you can see from my code this is not the case for me. I intagrated my own css
 and media for nearly all screen sizes. ![](assets/images/heading.png) and this style carries on 
-throughout the site as shown here ![](assets/images/heading2.png) ![](assets/images/heading3.png)
+throughout the site as shown here ![](assets/images/heading2.png) ![](assets/images/heading3.png).
+The pourpose of this was to create stability and structure across the site with changed background 
+to just add the small element of style to it, last thing I wanted was people getting too overwhelemed 
+at the beginning and leaving. the whole idea was to get people who now days have a very short attention
+span. I know this because I myself struggle with this.
+
+Then the sites move down into the main informative part of the page, this is the most text heavy part of the 
+site, i tried to make this easier on the eyes and interactive enough to where its difficult to not get borde.
+I achived this by in the index.htlm by adding a short twenty second video of someonw checkng their oil
+![](assets/images/mid.png) and in the how-to.html i added youtube videos for some mabey further 
+explain on what i was trying to say like this ![](assets/images/mid2.png) ![](assets/images/mid3.png)
