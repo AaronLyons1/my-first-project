@@ -28,8 +28,7 @@ upon because people will just use bootstraps integrated HTML, CSS and the most d
 media queries but as you can see from my code this is not the case for me. I integrated my own CSS
 and media for nearly all screen sizes. 
 ![](assets/images/heading.png)
- and this style carries on 
-throughout the site, as shown here 
+and this style carries on throughout the site, as shown here 
 ![](assets/images/heading2.png)
 ![](assets/images/heading3.png).
 The purpose of this was to create stability and structure across the site, with changed background 
