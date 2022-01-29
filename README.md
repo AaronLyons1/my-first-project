@@ -26,8 +26,12 @@ The first thing you are greeted with is a quick message and the nav bar for goin
 This layout for the top was actually designed by bootstrap. Now I know bootstrap is slightly frowned 
 upon because people will just use bootstraps integrated HTML, CSS and the most difficult part the 
 media queries but as you can see from my code this is not the case for me. I integrated my own CSS
-and media for nearly all screen sizes. ![](assets/images/heading.png) and this style carries on 
-throughout the site, as shown here ![](assets/images/heading2.png) ![](assets/images/heading3.png).
+and media for nearly all screen sizes. 
+![](assets/images/heading.png)
+ and this style carries on 
+throughout the site, as shown here 
+![](assets/images/heading2.png)
+![](assets/images/heading3.png).
 The purpose of this was to create stability and structure across the site, with changed background 
 to just add the small element of style to it, last thing I wanted was people getting too overwhelmed 
 at the beginning and leaving. The whole idea was to get people who now days have a very short attention
@@ -36,11 +40,16 @@ span. I know this because I myself struggle with this.
 Then the sites move down into the main informative part of the page, this is the most text heavy part of the 
 site, I tried to make this easier on the eyes and interactive enough to where it's difficult to not get bored.
 I achieved this by in the index. HTML by adding a short twenty-second video of someone checking their oil
-![](assets/images/mid.png) and in the how-to.html I added YouTube videos for some mabey further 
-explain on what I was trying to say like this ![](assets/images/mid2.png) ![](assets/images/mid3.png).
+![](assets/images/mid.png) 
+and in the how-to.html I added YouTube videos for some mabey further 
+explain on what I was trying to say like this 
+![](assets/images/mid2.png) 
+![](assets/images/mid3.png).
 The idea of adding videos I felt was a good way of breaking up the paragraphs. Finally, at the bottom 
 of all the pages, you have the same layout across the three pages. This creates a level of stability 
-and support. ![](assets/images/bottom.png) in this image, the map doesn't load for some reason but 
+and support. 
+![](assets/images/bottom.png) 
+in this image, the map doesn't load for some reason but 
 works on other devices.
 
 ## Testing 
@@ -56,17 +65,21 @@ I encountered was on slower devices the nav bar was delayed opening but worked p
 Testing the project was for me the most confusing part of the project, I didn't know to run it off 
 lighthouses or by grabbing the link and trying it on other devices or what to do, but I'm done everything 
 I could to test it.
-Lighthouse result for mobiles ![](assets/images/mobile-lighthouse.png) 
-lighthouse result for desktops ![](assets/images/desktop-lighthouse.png)
+Lighthouse result for mobiles 
+![](assets/images/mobile-lighthouse.png) 
+lighthouse result for desktops 
+![](assets/images/desktop-lighthouse.png)
 
 ### I ran my code through the code validator and here are the results
 
-HTML ![](assets/images/index-validate.png) 
+HTML 
+![](assets/images/index-validate.png) 
      ![](assets/images/how-to-validate.png) 
      ![](assets/images/contact-validate.png) 
      The only problem is a warning sign on a h1, but that is need, so the warning is ignored in this case.
 
-CSS ![](assets/images/css-validate.png)
+CSS 
+![](assets/images/css-validate.png)
 
 ## Bugs
  
