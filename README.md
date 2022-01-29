@@ -1,3 +1,5 @@
+# my first website
+
 This website was a struggle, throughout the course I've been stuck on certain 
 objects or struggling to remember certain parts of the code aswel as half way 
 through this project, I was in a severe accident that threatened my life. The injuries
@@ -41,7 +43,7 @@ of all the pages, you have the same layout across the three pages. This creates 
 and support. ![](assets/images/bottom.png) in this image, the map doesn't load for some reason but 
 works on other devices.
 
-Testing 
+## Testing 
 
 Once I got my code up to date and the layout of the site finished, I sent the link for my site to
 my family, friends, and I.
@@ -49,7 +51,7 @@ I went through it on all different device screens and different quality devices,
 I encountered was on slower devices the nav bar was delayed opening but worked perfect.
 
 
-Validator Testing 
+## Validator Testing 
 
 Testing the project was for me the most confusing part of the project, I didn't know to run it off 
 lighthouses or by grabbing the link and trying it on other devices or what to do, but I'm done everything 
@@ -57,7 +59,7 @@ I could to test it.
 Lighthouse result for mobiles ![](assets/images/mobile-lighthouse.png) 
 lighthouse result for desktops ![](assets/images/desktop-lighthouse.png)
 
-I ran my code through the code validator and here are the results
+### I ran my code through the code validator and here are the results
 
 HTML ![](assets/images/index-validate.png) 
      ![](assets/images/how-to-validate.png) 
@@ -66,7 +68,7 @@ HTML ![](assets/images/index-validate.png)
 
 CSS ![](assets/images/css-validate.png)
 
-Bugs
+## Bugs
  
 The only major bug I've come across is the bottom of my pages where my map doesn't load for me 
 but does for everyone else
@@ -75,31 +77,31 @@ Another thing I found to be slightly a bug, I tried a lot of difficult code that
 wrong and as I predicted it did, so I commit showing my working and had to revert all my changes to 
 make my site usable again.
 
-Deployment
+## Deployment
 
 I uploaded my site to GitHub servers by going to setting then GitHub pages and launching it.
-The link it provided me with is url(https://aaronlyons1.github.io/my-first-project/) this is the 
+The link it provided me with is https://aaronlyons1.github.io/my-first-project/ this is the 
 link I sent to my family for them to view the website.
 I learned to upload the site by using one of the code institute videos.
 
 
-Credits
+## Credits
 
-Content
+#### Content
 
-As I have stated, I have used url(https://getbootstrap.com/docs/4.6/getting-started/introduction/) 4 
+As I have stated, I have used https://getbootstrap.com/docs/4.6/getting-started/introduction/ 4 
 in my code, I was advised to do so about halfway through my code this was to make it easier on me 
 when it came to making my site look its best.
 
 The contact page was code that my fiend showed me years ago, and I replicated it to the best of my ability.
 
-Media
+#### Media
 
-I have got all of my images seen on the site from url(https://www.pexels.com/). The rest of my pictures 
+I have got all of my images seen on the site from https://www.pexels.com/. The rest of my pictures 
 are my own screenshots.
 
-The small video I have on my home page is from a website called url(https://coverr.co/)
+The small video I have on my home page is from a website called https://coverr.co/
 
-The two videos I have in my how-to section are YouTube videos  credit to : url(https://youtu.be/PMIjgDJnDek)
-                                                                       and url(https://youtu.be/zmwLj1pnreg)
+The two videos I have in my how-to section are YouTube videos  credit to : https://youtu.be/PMIjgDJnDek
+                                                                       and https://youtu.be/zmwLj1pnreg
 
